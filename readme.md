@@ -1,39 +1,34 @@
-# Repositorio Electiva Básica II
+# To-do list Node.
 
-Repositorio asignatura Electiva Básica II
+Ejemplo de To-Do List en Node.js
 
-### Enlaces.
+![Game](https://dl.dropboxusercontent.com/u/181689/todo/todo.gif)
 
-* Slack: https://unicundi.slack.com/
-* DropBox: https://goo.gl/fuvr3u
-* Cloud9: https://c9.io/
-* Uso Cliente GitHub (Windows): https://www.youtube.com/watch?v=MuNnhLATJUU
-* Publicar en GitHub: https://youtu.be/D6VFF8Rsyao
-* Desplegar aplicaciones en GitHub: http://drastudio.github.io/url-generator/
-* Transmisiones día Sábado: http://goo.gl/9ktb4c
+### Instalación
 
-## URL Clases día Sábado.
+Ejecutar el archivo [package.json], previa instalación de [Node.js]
 
-#### 15 de Agosto de 2015
+```
+npm install
+```
 
-https://youtu.be/pWIDITfwncs
+Ejecutar el archivo [to-do.sql] para la creación de la base de datos **```todos```**
 
-#### 22 de Agosto de 2015
+### Características.
 
-https://youtu.be/vtvc1Ak7GMI
+* Registro de usuarios.
+* Autenticación de usuarios.
+* Creación, edición y eliminación de tareas.
+* Creación de tareas a través de reconocimiento de voz.
+* Envío de email.
 
-#### 29 de Agosto de 2015
+### Librerías.
 
-https://youtu.be/cegxArSUf7E
+* Express: http://expressjs.com/es/
+* Passport: http://passportjs.org/
+* express-mailer: https://www.npmjs.com/package/express-mailer
 
-#### 05 de Septiembre de 2015
-
-https://youtu.be/Ba4hdwcEUR8
-
-#### 12 de Septiembre de 2015
-
-https://youtu.be/Obl1u8wLb7Y
-
+Otras pueden ser consultas en el archivo [package.json]
 
 ### Autor
 Jorge Rubaino
@@ -43,3 +38,6 @@ License
 ----
 MIT
 [@ostjh]:https://twitter.com/ostjh
+[package.json]:https://github.com/Jorger/to-do_list_node_passport/blob/master/package.json
+[Node.js]:https://nodejs.org/en/
+[to-do.sql]:https://github.com/Jorger/to-do_list_node_passport/blob/master/to-do.sql
