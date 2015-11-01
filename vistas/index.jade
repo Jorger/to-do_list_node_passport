@@ -1,0 +1,29 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='google', value='notranslate')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
+    meta(name='mobile-web-app-capable', content='yes')
+    meta(name='apple-mobile-web-app-capable', content='yes')
+    meta(name='apple-mobile-web-app-status-bar-style', content='black')
+    link(rel='shortcut icon', href='img/favicon.ico', type='image/x-icon')
+    link(rel='icon', href='img/favicon.ico', type='image/x-icon')
+    link(rel='manifest', href='manifest.json')
+    title!= titulo
+  body
+    header
+      #titulo #{usuario}
+      #divMic
+        img.iconHeader#mic(src='img/mic.png')
+        a(href='/logout')
+            img.iconHeader#logout(src='img/exit.png' border = "0")
+    #contenido
+      input#task(type='text', placeholder='Nueva Tarea')
+      #todos
+    link(rel='stylesheet', type='text/css', href='css/estilos.css')
+    link(rel='stylesheet', type='text/css', href='css/sweetalert.css')
+    script(src='js/sweetalert.min.js')
+    script(src='js/jquery-1.11.3.min.js')
+    script(src='js/voice.js')
+    script(src='js/script.js')
