@@ -204,7 +204,7 @@ var getTask = function(req, res)
 
 var notFound404 = function(req, res)
 {
-	res.status(404).send("Página no encontrada :( en el momento");
+	res.status(404).send("Página no encontrada :( en el memento");
 };
 
 //Crear o edita un usuario...
